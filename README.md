@@ -1,0 +1,58 @@
+# juju
+para pessoas especiais
+
+<html>
+    <body>
+        <style>
+
+            .flamengo{
+
+                max-width: 500px;
+                opacity: 1;
+                cursor: pointer;
+                margin: 200px;
+                margin-left: 500px;
+                size: 600cm;
+            }
+
+            .seu-elemento {
+
+                text-align: center;
+                margin-top: 200px;
+            }
+
+            body {
+
+                background-color: red;
+
+            }
+
+
+        </style>
+
+
+
+        <div class="seu-elemento">
+            <h2>FLAMENGO É TIME DESDE QUANDO?</h2>
+
+            <img id="minha-imagem" src="flamengo.png" alt="Minha Imagem">
+
+            <audio id="minha-musica">
+              <source src="flamengo é time.mp3" type="audio/mpeg">
+            </audio>
+            <script>
+
+            var minhaImagem = document.getElementById("minha-imagem");
+                minhaImagem.addEventListener("click", function() {
+                 var minhaMusica = document.getElementById("minha-musica");
+                 minhaMusica.play();
+                 alert("TIME É O OTARIO DA GAMA O MENGO É SELEÇÃO!!!!!!!");
+                    });
+
+            </script>
+
+            <title>flamengo é time?
+            </title>
+
+    </body>
+</html>
